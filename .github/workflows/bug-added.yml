@@ -2,7 +2,7 @@
 name: "Assign label and dri"
 on:
   issues:
-    types: [added]
+    types: [opened]
 
 jobs:
   automate-bug:
