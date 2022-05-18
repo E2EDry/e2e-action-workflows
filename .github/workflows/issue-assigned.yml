@@ -2,7 +2,7 @@
 name: "Issue assigned"
 on:
   issues:
-    types: []
+    types: [assigned]
 
 jobs:
   issue-assigned:
